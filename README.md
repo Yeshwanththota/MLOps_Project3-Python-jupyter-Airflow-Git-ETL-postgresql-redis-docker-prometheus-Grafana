@@ -12,12 +12,13 @@
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
+** Go to MLops3_project_results for outputs**
 
-1.	Highlight of this project
-2.	Main focus on ETL pipeline using AIRFLOW.
-3.	Feature store implementation using Redis (linux based online feature store) because Job lib is slow for retrival and scalability issues.
-4.	data drift detection using alibi detect library to calculate drift.
-5.	ML monitoring using prometheus (Data source for metrics) and Grafana (for dashboard). However these two are resource intensive.
+    **Highlight of this project**
+1.	Main focus on ETL pipeline using AIRFLOW.
+2.	Feature store implementation using Redis (linux based online feature store) because Job lib is slow for retrival and scalability issues.
+3.	data drift detection using alibi detect library to calculate drift.
+4.	ML monitoring using prometheus (Data source for metrics) and Grafana (for dashboard). However these two are resource intensive.
 
 Step 1
 Database setup
