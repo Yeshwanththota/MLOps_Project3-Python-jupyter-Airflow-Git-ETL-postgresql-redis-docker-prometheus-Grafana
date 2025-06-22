@@ -12,9 +12,11 @@
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
-** Go to MLops3_project_results for outputs**
+**Summary:** Developed an end-to-end ETL pipeline using Apache Airflow to extract data from GCP and load it into PostgreSQL. Implemented a Redis-based feature store for fast retrieval, data drift detection with Alibi Detect, and ML monitoring using Prometheus and Grafana.
 
-    **Highlight of this project**
+**Go to MLops3_project_results for outputs**
+
+**Highlight of this project**
 1.	Main focus on ETL pipeline using AIRFLOW.
 2.	Feature store implementation using Redis (linux based online feature store) because Job lib is slow for retrival and scalability issues.
 3.	data drift detection using alibi detect library to calculate drift.
